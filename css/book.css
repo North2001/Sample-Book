@@ -1,0 +1,190 @@
+h1{
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 0px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+  padding: 1.875rem auto 1.875rem auto;
+}
+
+.heading{
+  margin-top: 0px;
+  padding-top: 3.75rem;
+  background-color: #EAF6F6;
+}
+
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  /*
+  border: solid 10px;
+  padding: 20px;
+  width: 200px;
+  height: 200px; */
+  background-color: #ffff;
+  margin-top: 0;
+  height: 10%;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0f868a;
+}
+
+li {
+  float: left;
+}
+
+.login {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #ffff;
+  text-align: center;
+  padding: 0.875rem 1rem;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #61C0BF;
+  text-decoration: underline;
+}
+
+hr{
+  border-style: dotted none none none;
+  width: 25%;
+  border-color: #505050; 
+  border-width: 0.5rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2rem;
+  font-family: 'Montserrat' sans-serif;
+  text-decoration: underline;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: bolder;
+}
+
+#details {
+  font-size: smaller;
+}
+
+#author {
+  font-weight: bolder;
+}
+
+.intro{
+  width: 90%;
+  margin: 4.375rem auto 4.375rem auto;
+}
+
+.wrapper{
+  margin: 0.625rem auto 0.625rem auto;
+  padding: 1.25rem;
+  height: 50rem;
+}
+
+.book-row{
+  width: 90%;
+  margin-top: 1.875rem;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0.625rem;
+  height: 48.75rem;
+}
+
+.spirits-image{
+  width: 35%;
+  float: left;
+  margin: 0.625rem;
+  margin-right: 2.2rem;
+}
+
+.billy-image{
+  width: 35%;
+  float: right;
+  margin: 0.625rem;
+  margin-left: 2.2rem;
+}
+
+.sotg-image{
+  width: 35%;
+  float: left;
+  margin: 0.625rem;
+  margin-right: 2.2rem;
+}
+
+.eden-image{
+  width: 35%;
+  float: right;
+  margin: 0.625rem;
+  margin-left: 2.2rem;
+}
+
+.synopsis {
+  text-align: justify;
+  font-size: small;
+}
+
+.borrow {
+  -webkit-border-radius: 0.625rem;
+  -moz-border-radius: 0.625rem;
+  border-radius: 0.625rem;
+  color: #66BFBF;
+  font-family: Trebuchet MS;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 2rem;
+  background-color: #EAF6F6;
+  border: solid #66BFBF 0.3rem;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.borrow:hover {
+  background: #c2ecf0;
+  border: solid #66BFBF 0.3rem;
+  -webkit-border-radius: 0.625rem;
+  -moz-border-radius: 0.625rem;
+  border-radius: 0.625rem;
+  text-decoration: underline;
+}
+
+.links{
+  margin: 1.875rem auto 0rem auto;
+  background-color: #81caca;
+  padding-bottom: 0.625rem;
+}
+
+.socials{
+  width: 5%;
+  padding: 0px 0px 0px 0px;
+  margin: 1.25rem auto 0 auto
+}
+
+.copyright{
+  font-size: x-small;
+  color: #0f868a;
+  margin-bottom: 0px;
+}
